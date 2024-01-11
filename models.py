@@ -19,7 +19,7 @@ class Cupcake(db.Model):
     rating = db.Column(db.Float, nullable=False)
     image = db.Column(
         db.Text,
-        nullable=False,
+        nullable=True,
         default="https://thestayathomechef.com/wp-content/uploads/2017/12/Most-Amazing-Chocolate-Cupcakes-1-small.jpg",
     )
 
